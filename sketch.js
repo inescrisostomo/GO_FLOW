@@ -14,7 +14,7 @@ var magOff = 0;
 var showField = false;
 
 function setup() {
-  createCanvas(windowWidth, windowWidth);
+  createCanvas(windowWidth, windowHeight);
   
   pixelDensity(5);
   cols = floor(width / scl);
